@@ -7340,6 +7340,8 @@ img.services-image{
 }
 .work-item a:hover .work-img > img{
     transform: scale(1.05) rotate(0.001deg) translateZ(0);
+    height: 273px;
+    width: 272px;
 }
 .work-item .work-intro{
     transition: all 2s var(--ease-out-medium);
@@ -9710,7 +9712,23 @@ footer:not(.light-content) .text-gray a:hover{
 .light-content .fw-menu-large li a:hover{
     color: #fff;
 }
-
+/* underline */
+.un {
+    display: inline-block;
+  }
+  
+  .un:after {
+    content: '';
+    width: 0px;
+    height: 2px;
+    display: block;
+    background: #fff;
+    transition: 300ms;
+  }
+  
+  .un:hover:after {
+    width: 100%;
+}
 /* Link to top */
 a.link-to-top,
 footer .text-gray a.link-to-top{
