@@ -7927,14 +7927,14 @@ a.portfolio-5-link:hover .portfolio-5-title span{
     position: absolute;
     top: 0;
     left: 0;
-    width: 36.85%;
+    width: 35%;
     overflow: hidden;
     transform: translateZ(0) rotate(0.0001deg);
 }
 .call-action-2-image-2{
     position: relative;
-    width: 77.145%;
-    margin: 120px auto;
+    width: 70%;
+    margin: 120px 120px;
     overflow: hidden;
     transform: translateZ(0) rotate(0.0001deg);
 }
