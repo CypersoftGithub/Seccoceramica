@@ -7294,7 +7294,8 @@ img.services-image{
 .work-img img{
     display: block;
     position: relative;
-    width: 100%;    
+    width: 280px;
+    height: 280px;    
     overflow: hidden;
     transform: rotate(0.001deg) translateZ(0);
 }
@@ -7927,7 +7928,7 @@ a.portfolio-5-link:hover .portfolio-5-title span{
     position: absolute;
     top: 0;
     left: 0;
-    width: 35%;
+    width: 36.85%;
     overflow: hidden;
     transform: translateZ(0) rotate(0.0001deg);
 }
@@ -11878,7 +11879,7 @@ html:not(.mobile) .owl-animate-fadeInDown{
     cursor: default;
 }
 .accordion > dt > a:after{
-    content: "\e91f"; 
+    /* content: "\e91f";  */
     display: block;
     width: 1em;
     height: 1em;
@@ -11943,7 +11944,7 @@ html:not(.mobile) .owl-animate-fadeInDown{
     text-decoration: none;
 }
 .toggle > dt > a:after{
-    content: "\e91f"; 
+    /* content: "\e91f";  */
     display: block;
     width: 1em;
     height: 1em;
