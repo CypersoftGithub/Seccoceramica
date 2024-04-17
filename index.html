@@ -1166,9 +1166,10 @@
                             <div class="col-md-6 mb-sm-50">
                                 
                                 <!-- Contact Form -->
-                                <form class="form contact-form pe-lg-5" id="contact_form">
+                                <form class="form contact-form pe-lg-5"  method="POST" name="contactform" action="https://script.google.com/macros/s/AKfycbwHKhSnbQLTyqqJbnghsciY2dcFW1YW7RACbhztYHRnhyrVdUvnI6hbGEDRzrcQqNQDlg/exec" id="contactform">
                                     
                                     <div class="row">
+
                                         <div class="col-lg-6">
                                             
                                             <!-- Name -->
@@ -1177,6 +1178,7 @@
                                                 <input type="text" name="name" id="name" class="input-lg round form-control" placeholder="Enter your name" pattern=".{3,100}" required aria-required="true">
                                             </div>
                                         </div>
+
                                         <div class="col-lg-6">
                                             
                                             <!-- Name -->
@@ -1200,7 +1202,7 @@
                                     <!-- Message -->
                                     <div class="form-group">
                                         <label for="message">Message</label>
-                                        <textarea name="message" id="message" class="input-lg round form-control" style="height: 130px;" placeholder="Enter your message"></textarea>
+                                        <textarea type="text" name="message" id="message" class="input-lg round form-control" style="height: 130px;" placeholder="Enter your message"></textarea>
                                     </div>
                                     
                                     <div class="row">
@@ -1208,7 +1210,7 @@
                                             
                                             <!-- Send Button -->
                                             <div class="pt-20">
-                                                <button class="submit_btn btn btn-mod btn-w btn-large btn-round btn-hover-anim" id="submit_btn" aria-controls="result">
+                                                <button class="submit_btn btn btn-mod btn-w btn-large btn-round btn-hover-anim" type="submit" value="submit" id="submit" aria-controls="result">
                                                     <span>Send Message</span>
                                                 </button>
                                             </div>   
@@ -1225,8 +1227,7 @@
                                         </div>
                                     </div>
                                    
-                                   <div id="result" role="region" aria-live="polite" aria-atomic="true"></div>
-                                   
+                                   <div id="result" role="region" aria-live="polite" aria-atomic="true"></div>  
                                 </form>
                                 <!-- End Contact Form -->
                                 
@@ -1422,7 +1423,8 @@
         <script src="js/plugins.js"></script>
         <script src="js/jquery.ajaxchimp.min.js"></script>             
         <script src="js/contact-form.js"></script>    
-        <script src="js/all.js"></script> 
+        <script src="js/all.js"></script>
+        <script src="js/form.js"></script>
         <!-- End JS -->       
     </body>
 </html>
